@@ -87,3 +87,4 @@ def solve_lvii():
         for line in sign:
             print(line)
 
+solve_lvii()

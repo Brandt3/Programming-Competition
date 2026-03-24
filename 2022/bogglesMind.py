@@ -1,7 +1,7 @@
 # =============================================================================
 # Problem 3 — It Boggles the Mind
 # =============================================================================
-
+# Maybe ignore this one, not sure if works
 def solve_boggle():
     def get_neighbors(r, c):
         neighbors = []

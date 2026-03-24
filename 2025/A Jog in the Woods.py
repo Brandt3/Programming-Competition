@@ -1,7 +1,7 @@
 # =============================================================================
 # Problem 9 — A Jog in the Woods
 # =============================================================================
-
+# Needs adjustment
 def solve_jog():
     line1 = input().split()
     n, m = int(line1[0]), int(line1[1])
@@ -126,3 +126,5 @@ def solve_jog():
     cx, cy = coords[current]
     print(f"{cx} {cy}")
 
+
+solve_jog()

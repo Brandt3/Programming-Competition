@@ -27,3 +27,4 @@ def solve_jumble():
         else:
             print(f"{s}: no match in dictionary")
 
+solve_jumble()

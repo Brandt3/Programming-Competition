@@ -74,3 +74,4 @@ def solve_golf():
         idx = round(step) % 64
         print(f"Case {i}: {points[idx]}")
 
+solve_golf()

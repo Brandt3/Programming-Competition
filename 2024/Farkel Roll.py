@@ -85,3 +85,4 @@ def solve_farkel():
         dice_str = ' '.join(map(str, sorted_dice))
         print(f"{dice_str} scores {score}")
 
+solve_farkel()

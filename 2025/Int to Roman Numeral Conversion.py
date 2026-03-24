@@ -20,3 +20,4 @@ def solve_roman():
                 num -= val
         print(f"{orig} is {''.join(result)}")
 
+solve_roman()

@@ -28,3 +28,4 @@ def solve_bst_storage():
         max_idx = max(bst.keys())
         print(f"Case {case}: {max_idx + 1}")
 
+solve_bst_storage()

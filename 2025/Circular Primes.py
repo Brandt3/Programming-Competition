@@ -1,7 +1,7 @@
 # =============================================================================
 # Problem 7 — Circular Primes
 # =============================================================================
-
+# Needs adjustment, misses one
 def solve_circular_primes():
     a, b = map(int, input().split())
 
@@ -27,3 +27,5 @@ def solve_circular_primes():
     for n in range(a, b+1):
         if is_prime[n] and is_circular_prime(n):
             print(n)
+
+solve_circular_primes()

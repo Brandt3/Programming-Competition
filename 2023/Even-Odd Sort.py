@@ -18,7 +18,8 @@ def solve_even_odd_sort():
         result[idx] = even_vals[i]
     for i, idx in enumerate(odd_indices):
         result[idx] = odd_vals[i]
-
+    print("\n")
     for v in result:
         print(v)
 
+solve_even_odd_sort()

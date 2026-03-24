@@ -4,7 +4,7 @@
 # Read back row-by-row bottom-to-top: leg1[r], leg2[r], leg3[r], leg4[r]
 # Each group of 4 = one day's Pick-4 numbers
 # =============================================================================
-
+# Needs adjustment, prints backwards
 def solve_w_sort():
     numbers = list(map(int, input().split()))
     # 124 numbers -> 4 legs of 31 elements
@@ -26,3 +26,5 @@ def solve_w_sort():
         base = (day-1)*4
         four = output[base:base+4]
         print(f"{day}: {four[0]} {four[1]} {four[2]} {four[3]}")
+
+solve_w_sort()

@@ -31,3 +31,4 @@ def solve_stamps():
     for h in holes:
         print(h)
 
+solve_stamps()

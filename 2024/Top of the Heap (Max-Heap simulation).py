@@ -51,3 +51,4 @@ def solve_heap():
     for val in heap:
         print(val)
 
+solve_heap()

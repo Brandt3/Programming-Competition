@@ -21,8 +21,8 @@ def solve_valley_sort():
         else:
             result[right] = val
             right -= 1
-
-    print(n)
+    print("\n",n)
     for v in result:
         print(v)
 
+solve_valley_sort()

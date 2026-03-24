@@ -22,3 +22,4 @@ def solve_recursive_fmn():
         print(f"Case {i}: F({m},{n}) = {F(m, n)}")
  
 
+solve_recursive_fmn()

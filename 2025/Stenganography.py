@@ -22,3 +22,4 @@ def solve_steg():
     print(''.join(output), end='')
     if output and output[-1] != '\n':
         print()
+solve_steg()

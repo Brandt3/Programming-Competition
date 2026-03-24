@@ -1,7 +1,7 @@
 # =============================================================================
 # Problem 2 — Kudok-16 Solver
 # =============================================================================
-
+#Needs testing
 def solve_kudok():
     num_puzzles = int(input())
     for _ in range(num_puzzles):
@@ -69,3 +69,4 @@ def solve_kudok():
             print(f"{row_sums[r]} {row_str}")
         print()
 
+solve_kudok()

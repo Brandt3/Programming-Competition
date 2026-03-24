@@ -22,3 +22,4 @@ def solve_hunting():
 
         print(f"Case {case}: {' '.join(map(str, order))}")
 
+solve_hunting()

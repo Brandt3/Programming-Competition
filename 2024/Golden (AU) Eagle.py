@@ -2,7 +2,7 @@
 # Problem 1 — Golden (AU) Eagle
 # AUE printed VERTICALLY, one letter per block, scale blank lines between letters
 # =============================================================================
-
+#Slightly off
 def solve_aue():
     LETTERS = {
         'A': [
@@ -60,3 +60,4 @@ def solve_aue():
         for line in sign_lines:
             print(line)
 
+solve_aue()

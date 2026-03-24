@@ -7,7 +7,7 @@
 #   3. CW to third number (c3)
 # Count total positions traversed (not counting start, counting each stop).
 # =============================================================================
-
+# Needs adjustment
 def solve_lock():
     def cw_distance(start, target):
         """Clockwise distance from start to target on 40-position dial."""
@@ -46,3 +46,4 @@ def solve_lock():
 
         print(total)
 
+solve_lock()

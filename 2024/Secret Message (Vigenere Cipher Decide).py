@@ -1,7 +1,7 @@
 # =============================================================================
 # Problem 5 — Secret Message (Vigenère Cipher Decode)
 # =============================================================================
-
+#Needs adjustment
 def solve_secret():
     keyword = input().strip().lower()
     k = len(keyword)
@@ -35,3 +35,4 @@ def solve_secret():
                 result.append(ch)
         print(''.join(result))
 
+solve_secret()

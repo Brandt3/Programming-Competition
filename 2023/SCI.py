@@ -58,3 +58,4 @@ def solve_sci():
         for line in sign_lines:
             print(line)
 
+solve_sci()

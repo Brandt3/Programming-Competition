@@ -37,3 +37,4 @@ def solve_weather():
                 print(f"{month_names[month]} {year}: Average daily high temperature "
                       f"{avg_high:.1f} and Average daily low temperature {avg_low:.1f}")
 
+solve_weather()

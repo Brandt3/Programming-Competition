@@ -17,3 +17,4 @@ def solve_recursive_f():
         n = int(input())
         print(f"Case {i}: F({n}) = {F(n)}")
 
+solve_recursive_f()
