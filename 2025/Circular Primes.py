@@ -6,12 +6,12 @@ def solve_circular_primes():
     a, b = map(int, input().split())
 
     # Sieve up to b
-    sieve_limit = b
+    sieve_limit = max(b, 500000)
     is_prime = [True] * (sieve_limit + 1)
     is_prime[0] = is_prime[1] = False
     for i in range(2, int(sieve_limit**0.5)+1):
         if is_prime[i]:
-            for j in range(i*i, sieve_limit+1, i):
+            for j in range(i*i, sieve_limit + 1, i):
                 is_prime[j] = False
 
     def rotations(n):

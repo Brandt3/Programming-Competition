@@ -55,6 +55,7 @@ def solve():
     for i in range(1, n + 1):
         s = input().strip()
         # Uncomment whichever the problem asks for:
-        print(f"Case {i}: {from_roman(s)}")           # Roman → int
-        # print(f"Case {i}: {to_roman(int(s))}")      # int → Roman
-        # print(f"Case {i}: {is_valid_roman(s)}")     # validate
+        #print(f"Case {i}: {from_roman(s)}")           # Roman → int
+        print(f"Case {i}: {to_roman(int(s))}")      # int → Roman
+        #print(f"Case {i}: {is_valid_roman(s)}")     # validate
+solve()

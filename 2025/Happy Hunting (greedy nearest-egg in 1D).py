@@ -7,8 +7,15 @@ def solve_hunting():
     for case in range(1, num_hunts + 1):
         parts = list(map(int, input().split()))
         pos = parts[0]
-        n   = parts[1]
-        eggs = parts[2:2+n]
+
+        # Accept both formats:
+        # - explicit count: start n egg1 egg2 ... eggN
+        # - sentinel: start egg1 egg2 ... eggK -1
+        if parts[-1] == -1:
+            eggs = parts[1:-1]
+        else:
+            n = parts[1]
+            eggs = parts[2:2+n]
 
         order = []
         remaining = list(eggs)
