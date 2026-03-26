@@ -2,6 +2,57 @@
 # Problem 6 — Alien Math (Base-30 Addition)
 # =============================================================================
 
+# Readable version
+def to_base10(s):
+    digits = "0123456789ABCDEFGHIJKLMNOPQRST"
+
+    # build value map
+    val = {}
+    for i, ch in enumerate(digits):
+        val[ch] = i
+
+    num = 0
+    for ch in s:
+        num = num * 30 + val[ch]
+
+    return num
+
+
+def to_base30(num):
+    digits = "0123456789ABCDEFGHIJKLMNOPQRST"
+
+    if num == 0:
+        return "0"
+
+    result = ""
+
+    while num > 0:
+        remainder = num % 30
+        result = digits[remainder] + result
+        num = num // 30
+
+    return result
+
+
+# main program
+count = int(input())
+
+for case in range(1, count + 1):
+    num1, num2 = input().split()
+
+    value1 = to_base10(num1)
+    value2 = to_base10(num2)
+
+    total = value1 + value2
+
+    answer = to_base30(total)
+
+    print(f"Case {case} sum: {answer}")
+
+
+
+# Less code
+
 def solve_alien_math():
     DIGITS = "0123456789ABCDEFGHIJKLMNOPQRST"
     char_to_val = {ch: i for i, ch in enumerate(DIGITS)}
